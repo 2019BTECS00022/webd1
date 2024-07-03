@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+}
+
+button{
+    border: none;
+    border-radius: 25px;
+    padding: 20px, 20px;
+    background-color: rgba(39, 176, 179, 0.607);
+    color: white;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgba(39, 176, 179, 0.855);
+}
